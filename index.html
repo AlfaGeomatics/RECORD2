@@ -40,7 +40,7 @@
             zoomControl:true, maxZoom:28, minZoom:1
         }).fitBounds([[13.782304717714569,-89.38393318770038],[13.80026497891,-89.35136025340995]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<center> <img src="images/AG.png" height= 100 px/> <br>Mapa desarrollado por <a href="http://alfageomatics.com" target="_blank">Alfa Geomatics </a> <br> Topografía Moderna y Sistemas de Información Geográfica <br> Teléfono: <a href="tel:+50325329827">+503 2532 9827 </a> <br> Este obra está bajo una licencia de <br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"> Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. </a></center>');
+        map.attributionControl.setPrefix('<center> <img src="images/AG.png" height= 50 px/> <br>Mapa desarrollado por <a href="http://alfageomatics.com" target="_blank">Alfa Geomatics </a> <br> Topografía Moderna y Sistemas de Información Geográfica <br> Teléfono: <a href="tel:+50325329827">+503 2532 9827 </a> <br> Este obra está bajo una licencia de <br><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"> Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. </a></center>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
         var measureControl = new L.Control.Measure({
